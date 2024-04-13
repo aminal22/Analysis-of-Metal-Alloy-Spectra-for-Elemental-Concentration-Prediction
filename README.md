@@ -17,6 +17,3 @@ Following data preparation, a reduction in the number of rows is observed due to
 
 The "create_model" function serves as the engine for training and evaluating machine learning models to predict element concentrations. It accepts several arguments, including the model type and the element of interest, and returns the trained model, R-squared score, and RMSE value.
 
-## Results and Conclusion
-The project includes comparative analyses of PLS and multivariate regression models for elements such as copper ('Cu'). While both models exhibit poor performance for copper, notable differences emerge in subsequent analyses, particularly for elements like manganese ('Mn'), where the multivariate regression model outperforms PLS in accurately predicting concentrations.
-
